@@ -29,7 +29,50 @@ The intermediate_code_generation function prints a simplified intermediate code 
 The main function defines the input code, performs lexical analysis, syntax analysis, and semantic analysis. If all checks pass, it proceeds to intermediate code generation.
 ```
 
-## By
+# Example: 
+### 1. Lexical Analysis :
+- Tokens:
+"if"
+"("
+"a"
+">"
+"b"
+")"
+"{"
+"c"
+"="
+"a"
+";"
+"}"
+"else"
+"{"
+"c"
+"="
+"b"
+";"
+"}"
+
+### 2. Syntax Analysis (Parsing) :
+- Syntax analysis passes. The code follows the structure of a valid "if statement."
+
+### 3. Semantic Analysis :
+- Semantic analysis passes. The code includes both a relational operator (>) and an assignment operator (=).
+
+### 4. Intermediate Code Generation :
+- Here's a simplified intermediate code for the given code:
+
+```
+t1 = a > b
+ifFalse t1 goto L1
+c = a
+goto L2
+L1: c = b
+L2: nop
+```
+
+- This intermediate code represents the logic of the "if statement," including the conditional evaluation and assignment.
+
+# By
 - 20CE015 - AYUSH DABHI
 - 20CE020 - AKSH DESAI
 - 20CE035 - HITEN JADAV
