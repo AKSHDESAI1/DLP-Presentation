@@ -1,6 +1,10 @@
 # Information
 Simple C Compiler Framework: Lexical, Syntax, Semantic Analysis, and Intermediate Code Generation for educational purposes.
 
+Figure : 
+![Implementation of Compiler Design in C](https://t4tutorials.com/wp-content/uploads/Phases-of-Compiler.webp)
+Fig 1.1 - Implementation of Compiler Design in C
+
 # Explanation
 This Program demonstrates Lexical Analysis, Syntax Analysis, Semantic Analysis, and Intermediate Code Generation for a specific "if statement". 
 
