@@ -2,6 +2,7 @@
 Simple C Compiler Framework: Lexical, Syntax, Semantic Analysis, and Intermediate Code Generation for educational purposes.
 
 ![Implementation of Compiler Design in C](https://t4tutorials.com/wp-content/uploads/Phases-of-Compiler.webp)
+
 Fig 1.1 - Implementation of Compiler Design in C
 
 # Explanation
